@@ -1,0 +1,26 @@
+#include<iostream>
+#include <locale.h>
+using namespace std;
+main(){
+	setlocale(LC_ALL, "Portuguese");
+	int num1, num2, result;
+	//entrada de dados
+	cout<<"Ola Mundo !!"<<endl<<"Fala Ricard!" <<endl;
+	cout<<"Digite o primeiro Numero: ";
+	cin>>num1;
+	cout<<"Digite o segundo numero: ";
+	cin>>num2;
+	//saida de dados
+	cout<<endl<<"Numero digitados: "<<num1<<" e "<<num2<< endl;
+	result = num1 + num2;
+	cout<<endl<<"Soma: "<<num1<<" + "<<num2<<" = "<<result;
+	result = num1 - num2;
+	cout<<endl<<"Subtração: "<<num1<<" - "<<num2<<" = "<<result;
+	result = num1 * num2;
+	cout<<endl<<"Multiplicação: "<<num1<<" x "<<num2<<" = "<<result;
+	result = num1 / num2;
+	cout<<endl<<"Divisão: "<<num1<<" / "<<num2<<" = "<<result;
+	result = num1 % num2;
+	cout<<" Resto: "<<result<<endl;
+	system("PAUSE");
+}
