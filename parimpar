@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+main(){
+	int num1, resto;
+	cout<<"Insira um numero: ";
+	cin>>num1;
+	if(num1<=0){
+		cout<<endl<<"ZERO eh um numero neutro";
+	}
+	else{		
+		resto = num1%2;
+		if(resto==0){
+			cout<<endl<<"Numero par";
+		}
+		else{
+			cout<<endl<<"Numero impar";
+	}
+}}
