@@ -1,0 +1,20 @@
+#include<iostream>
+#include <locale.h>
+using namespace std;
+main(){
+	
+	setlocale(LC_ALL, "Portuguese");
+	float peso, altura, imc;
+	cout<<"Insira seu peso: ";
+	cin>>peso;
+	cout<<endl<<"Insira sua altura: ";
+	cin>>altura;
+	imc=peso/(altura*altura);
+	cout<<endl<<"Seu IMC é "<< imc;
+	if(imc<20){
+		cout<<endl<<"tá no peso fera";
+	}
+	else{
+		cout<<endl<<"opa";
+	}
+}
